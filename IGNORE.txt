@@ -1,2 +1,0 @@
-file://3rd_rw/UI/hiSDK/zepto.min.js
-file://3rd_rw/UI/hiSDK/fx.js
