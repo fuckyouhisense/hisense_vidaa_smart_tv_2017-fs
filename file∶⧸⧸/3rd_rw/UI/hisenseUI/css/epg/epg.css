@@ -1,0 +1,496 @@
+#epg span{
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.epgDesc{
+    height: 472px;
+    width: 1920px;
+    font-size: 0;
+}
+.epgDesc > div{
+	display: inline-block;
+	vertical-align:top;
+}
+.epgPIP{
+    /*position: relative;*/
+    width: 570px;
+    height: 472px;
+    display: inline-block;
+}
+
+.epgFVPLogo{
+    background-color: #10243b;
+    height: 64px;
+    width: 474px;
+    padding: 36px 48px 24px 48px;
+}
+
+#epg_title {
+    color: #9ba2ad;
+    font-size: 40px;
+    float: left;
+    height: 79px;
+    line-height: 79px;
+}
+
+.epgTVWindow{
+    width: 474px;
+    height: 267px;
+    border: solid #10243b;
+    border-width: 0 48px 23px 48px;
+}
+
+.epgTunerName{
+    height: 58px;
+    line-height: 58px;
+    width: 474px;
+    padding: 0 48px;
+    background-color: #163150;
+
+    font-size: 30px;
+    color: rgba(255,255,255,0.87);
+    font-weight: bold;
+}
+
+#epg_pip_channel{
+    width: 474px;
+    height: 60px;
+    background-color: rgba(0,0,0,0.6);
+    text-indent: 24px;
+    font-size: 30px;
+    color: rgba(255,255,255,0.87);
+    line-height: 60px;
+    margin-top: 207px;
+}
+.epgInfoTimeAxis{
+    height: 472px;
+    width: 1350px;
+    font-size: 0;
+}
+.epgInfo{
+    height: 372px;
+    width: 1254px;
+    padding: 0 48px;
+    background-color: #091523;
+}
+
+
+#epg_time {
+    font-size: 28px;
+    width: 1254px;
+    height: 120px;
+    line-height: 120px;
+    color: rgba(255,255,255,0.54);
+    text-align: right;
+    direction: ltr;
+}
+
+.html_rtl #epg_time {
+    text-align: left;
+}
+
+
+.epgInfoTop{
+	height: 48px;
+	width: 1254px;
+}
+
+#epg_channel_name{
+    line-height: 48px;
+    font-size: 36px;
+	color: rgba(255,255,255,0.87);
+	max-width: 652px;
+    margin: 0 14px 0 0;
+}
+
+.html_rtl #epg_channel_name{
+    margin: 0 0 0 14px;
+}
+
+.epgProgramType{
+	max-width: 660px;
+    height: 48px;
+	display: inline-block;
+	float: right;
+}
+
+.html_rtl .epgProgramType {
+    float: left;
+}
+
+
+.epgProgramType span{
+    max-width: 182px;
+	margin: 0 0 0 48px;
+    font-size: 28px;
+    height: 43px;
+    line-height: 48px;
+    color: rgba(255,255,255,0.54);
+}
+
+.html_rtl .epgProgramType span{
+    margin: 0 48px 0 0;
+}
+
+#epg_type_color_purple{
+	border-bottom: 5px #c225b2 solid;
+}
+#epg_type_color_green{
+	border-bottom: 5px #02d9b8 solid;
+}
+#epg_type_color_pink{
+	border-bottom: 5px #d07364 solid;
+}
+
+#epg_type_color_purple.disable{
+    display: none;
+}
+
+#epg_type_color_green.disable{
+    display: none;
+}
+#epg_type_color_pink.disable{
+    display: none;
+}
+
+.epgInfoMid{
+	height: 96px;
+    width: 1254px;
+}
+
+.epgInfoMid div{
+    width: 1254px;
+    height: 42px;
+    font-size: 30px;
+    color: rgba(255,255,255,0.87);
+
+}
+
+#epg_program_time{
+	direction: ltr;
+}
+
+.epgShortDetail{
+    width: 1254px;
+	height: 108px;
+    font-size: 30px;
+    color: rgba(255,255,255,0.54);
+}
+#epg_program_detail{
+    max-height: 90px;
+    line-height: 42px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-word;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.epgTimeAxis{
+    width: 1350px;
+    height: 100px;
+    background-color: #10243b;
+    overflow: hidden;
+    /*white-space: nowrap;*/
+    font-size: 0;
+}
+
+.epgTimeAxis > img{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    top: -48px;
+}
+
+.epgTimeAxis > img.disable{
+    visibility: hidden;
+}
+
+#epg_time_right_tip{
+    left: 1250px;
+}
+
+
+#epg_time_axis_panel{
+    width: 1350px;
+    height: 100px;
+    display: inline-block;
+}
+
+#epg_time_axis_panel li{
+    display: inline-block;
+    height: 100px;
+    width: 448px;
+    border-left: 2px solid rgba(255,255,255,0.1);
+    /*box-shadow: 0 0 0 2px rgba(255,255,255,0.1);*/
+}
+#epg_time_axis_panel li span{
+    width: 448px;
+    font-size: 28px;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 10px;
+    color: rgba(255,255,255,0.54);
+}
+
+.epgAxisTitle{
+    font-weight: bold;
+}
+
+.epgEventList{
+    width: 1920px;
+    height: 536px;
+    background-color: #10243b;
+}
+
+#epg_channel_list{
+	height: 536px;
+    width: 1920px;
+    font-size: 0;
+}
+
+#epg_channel_list > li{
+	height: 107px;
+	width: 1920px;
+	font-size: 0;
+	white-space: nowrap;
+}
+
+#epg_channel_list > li.disable > *{
+	display: none;
+}
+.epgChannels{
+	width: 474px;
+    padding: 0 48px;
+	display: inline-block;
+	height: 105px;
+    border-bottom: 2px solid rgba(255,255,255,0.1);
+    vertical-align: top;
+    overflow: hidden;
+}
+
+
+.epgListChannelNum{
+	font-size: 30px;
+	color: rgba(255,255,255,0.54);
+    height: 105px;
+    line-height: 105px;
+	width: 90px;
+}
+
+.epgListChannelName{
+    font-size: 30px;
+    color: rgba(255,255,255,0.54);
+    height: 105px;
+    line-height: 105px;
+    text-indent: 10px;
+	width: 230px;
+}
+
+.epgListChannelLogoImg{
+    width: 128px;
+    height: 80px;
+    margin: 13px 0 12px 18px;
+    border-radius: 6px;
+}
+
+.html_rtl .epgListChannelLogoImg{
+    margin: 13px 18 12px 0;
+}
+
+.epgListChannelImg{
+	width: 48px;
+	height: 48px;
+    margin: 28px 5px 29px 5px;
+}
+
+.html_rtl .epgListChannelImg{
+    margin: 13px 18 12px 0;
+}
+
+.epgListChannelImgDisable{
+    display: none;
+}
+
+
+
+
+#epg_channel_list > li.focus > div span{
+    color: #00b1cd;
+    font-weight: bold;
+}
+#epg_channel_list > li.selected > div span{
+	color: #00b1cd;
+    font-weight: bold;
+}
+#epg_channel_list > li.focus > div.epgChannels{
+    background-color: #163150;
+}
+#epg_channel_list > li.selected > div.epgChannels{
+    background-color: #163150;
+}
+
+
+#epg_channel_list ul{
+	width: 1348px;
+	height: 101px;
+    padding: 3px 6px;
+	display: inline-block;
+    background-color: #091523;
+    /*overflow: hidden;*/
+}
+
+#epg_channel_list ul li{
+	height: 101px;
+    margin: 0 6px;
+	display: inline-block;
+    border-radius: 6px;
+	/*transition: width 0.3s ease-in-out;*/
+}
+
+.epgEventItem{
+    height: 89px;
+    width: inherit;
+}
+
+.epgEventTheme{
+    height: 12px;
+    width: inherit;
+}
+
+.epgEventItem span{
+	height: 89px;
+	width: inherit;
+	font-size: 30px;
+	line-height: 101px;
+	text-indent: 20px;
+    vertical-align: top;
+}
+.epgEventItem img{
+    width: 48px;
+    height: 48px;
+    vertical-align: top;
+    margin-top: 26px;
+}
+.epgEventTheme img{
+	height: 12px;
+	width: inherit;
+    border-radius: 0 0 6px 6px;
+}
+
+
+.epgEventListNormal{
+	color: rgba(255,255,255,0.54);
+	/*background-image: url(../../img/epg/normal_event.png);*/
+    /*background: -o-linear-gradient(top, #263643, #2a3e4e);*/
+    /*background: -webkit-linear-gradient(top, #263643, #2a3e4e);*/
+	/*border-left: 1px #3d4041 solid;*/
+    background-color: rgba(38,69,104,0.26);
+
+}
+
+.epgEventNotAvailable{
+    color: rgba(255,255,255,0.26);
+    background-color: rgba(38,69,104,0.26);
+}
+.epgEventNotAvailableFocus{
+    color: rgba(255,255,255,0.26);
+    background-color: rgba(38,69,104,0.26);
+    box-shadow: 0 0 0 2px #091523, 0 0 0 6px #00b1cd;
+    position: relative;
+}
+.epgEventListDisable{
+}
+.epgEventListFocus{
+    color: rgba(255,255,255,0.87);
+	box-shadow: 0 0 0 2px #091523, 0 0 0 6px #00b1cd;
+	/*background-image: url(../../img/epg/normal_event.png);*/
+    /*background: -o-linear-gradient(top, #263643, #2a3e4e);*/
+    /*background: -webkit-linear-gradient(top, #263643, #2a3e4e);*/
+	/*border-left: 1px #3d4041 solid;*/
+    background-color: rgba(38,69,104,0.26);
+    position: relative;
+    /*border-radius: 12px;*/
+}
+.epgEventListSelected{
+	color: rgba(255,255,255,0.87);
+	/*background-image: url(../../img/epg/current_event.png);*/
+    /*background: -o-linear-gradient(top, #164775, #1263a2);*/
+    /*background: -webkit-linear-gradient(top, #164775, #1263a2);*/
+	/*border-left: 1px #3d4041 solid;*/
+    background-color: #264568;
+    position: relative;
+}
+
+#epg_time_line_current.normal{
+    background-image: url(../../img/epg/bar_epg_program_time.png);
+    width: 110px;
+    height: 590px;
+    position: relative;
+    top: -590px;
+    line-height: 58px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255,255,255, 1);
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    z-index: 1;
+}
+#epg_time_line_current.disable{
+	display: none;
+}
+
+.epgBottom{
+	height: 72px;
+    width: 1920px;
+    background-color: #142d49;
+    box-shadow: 0 0 0 1px #243d58 inset;
+}
+
+#epg_opertion_btn{
+	height: 72px;
+    width: 1840px;
+    padding: 0 40px 0 40px;
+}
+
+
+#epg_opertion_btn li{
+	display: inline-block;
+	margin-left: 40px;
+	text-indent: 20px;
+	font-size: 28px;
+	color: rgba(255,255,255,0.54);
+	height: 80px;
+	float: right;
+}
+
+.html_rtl #epg_opertion_btn li {
+	float: left;
+	margin-right: 80px;
+	margin-left: 0;
+}
+
+
+#epg_opertion_btn li img{
+    margin: 12px 0 12px 0;
+}
+#epg_opertion_btn li span{
+	height: 72px;
+	line-height: 72px;
+}
+
+.epgPanelShadow{
+    position: relative;
+    height: 1008px;
+    width: 20px;
+    top: -1080px;
+    left: 550px;
+    box-shadow: 20px -10px 24px 5px rgba(0,0,0,0.3);
+    /*background-image: url(../../img/epg/epg_shadow.png);*/
+}

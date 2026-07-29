@@ -1,0 +1,301 @@
+.VIDAAU2MainTitle{
+    position: absolute;
+    /*background: #FFEC8B;*/
+    /*top: 0px;*/
+    left: 0px;
+    height: 720px;
+    width: 1280px;
+    overflow: hidden;
+    /*direction: ltr;*/
+    transition: all .25s ease-out;
+}
+/*.VidaaU2mainTitleStatusBarBg{*/
+    /*width: 1280px;*/
+    /*height: 96px;*/
+/*}*/
+/*.VidaaU2MainTitleStatusBarFrame{*/
+    /*width: 1248px;*/
+    /*height: 96px;*/
+    /*position: absolute;*/
+    /*top: 17px;*/
+    /*left: 16px;*/
+    /*right: 16px;*/
+    /*color: #FFFFFF;*/
+/*}*/
+/*.ViddaU2MainTitleStatusBarBg{*/
+    /*width: 1280px;*/
+    /*position: relative;*/
+    /*top:-96px;*/
+/*}*/
+/*.VidaaU2MainTitleTime{*/
+    /*display: inline-block;*/
+    /*float: left;*/
+    /*width: 175px;*/
+    /*margin: 0 16px 0 16px;*/
+/*}*/
+.VidaaU2MainTitleEditMsg{
+    width: 1200px;
+    position: relative;
+    font-size: 40px;
+    display: inline-block;
+    top:100px;
+    left: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+.VidaaU2MainTitleEditMsg2{
+    width: 1200px;
+    position: relative;
+    font-size: 32px;
+    display: inline-block;
+    top:110px;
+    left: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+/*#VidaaU2MainTitleTime1{*/
+    /*font-size: 56px;*/
+    /*display: inline-block;*/
+/*}*/
+/*#VidaaU2MainTitleTime2{*/
+    /*font-size: 20px;*/
+    /*position: relative;*/
+    /*top: -20px;*/
+
+/*}*/
+/*#VidaaU2MainTitleTime3{*/
+    /*font-size: 20px;*/
+/*}*/
+/*.VidaaU2MainTitleDate{*/
+    /*display: inline-block;*/
+    /*width: 120px;*/
+    /*margin: 0 16px 0 16px;*/
+/*}*/
+/*#VidaaU2MainTitleDate1{*/
+    /*font-size: 20px;*/
+
+/*}*/
+/*#VidaaU2MainTitleDate2{*/
+    /*font-size: 20px;*/
+/*}*/
+
+
+/*.VidaaU2MainTitleWeather{*/
+/*display: inline-block;*/
+    /*width: 800px;*/
+    /*margin: 0 16px 0 16px;*/
+    /*position: fixed;*/
+    /*left : 550px;*/
+    /*top : 17px;*/
+/*}*/
+/*.VidaaU2MainTitleWeather2{*/
+    /*display: inline-block;*/
+    /*width: 800px;*/
+    /*margin: 0 16px 0 16px;*/
+    /*position: fixed;*/
+    /*left : 550px;*/
+    /*top : 17px;*/
+/*}*/
+
+/*#VidaaU2MainTitleWeatherIcon2{*/
+    /*width: 240px;*/
+    /*height: 48px;*/
+    /*position: fixed;*/
+    /*left : 500px;*/
+    /*top : 25px;*/
+/*}*/
+/*#VidaaU2MainTitletemperature{*/
+    /*display: inline;*/
+    /*font-size: 56px;*/
+    /*left : 20px;*/
+/*}*/
+
+/*#VidaaU2MainTitleCity{*/
+    /*display: table;*/
+    /*position: relative;*/
+    /*font-size: 20px;*/
+    /*left : 10px;*/
+
+/*}*/
+/*#VidaaU2MainTitleweatherState{*/
+    /*display: inline;*/
+    /*position: relative;*/
+    /*font-size:20px;*/
+    /*left : 10px;*/
+
+/*}*/
+/*.VidaaU2MainTitleBar{*/
+    /*display: inline-block;*/
+    /*width: 120px;*/
+    /*margin: 0 16px 0 16px;*/
+/*}*/
+/*#VidaaU2MainTitleWeatherIcon{*/
+    /*width: 64px;*/
+    /*height: 64px;*/
+    /*position: fixed;*/
+    /*left : 510px;*/
+    /*top :20px;*/
+/*}*/
+
+
+
+
+/*.VidaaU2MainTitleNetwork{*/
+    /*display: inline-block;*/
+    /*width: 160px;*/
+    /*height: 96px;*/
+/*}*/
+/*#VidaaU2MainTitleNetworkState{*/
+    /*width: 200px;*/
+    /*font-size: 32px;*/
+    /*position: fixed;*/
+    /*right : 116px;*/
+    /*top : 30px;*/
+
+/*}*/
+/*#VidaaU2MainTitleNetworkIcon{*/
+    /*width: 48px;*/
+    /*height: 48px;*/
+    /*position: fixed;*/
+    /*right : 48px;*/
+    /*top : 30px;*/
+/*}*/
+.VidaaU2MainTitleContentNormal{
+    height: 396px;
+    position: relative;
+    margin-left: 28px;
+    margin-top:256px;
+    width: 1280px;
+    transition: all 0.25s;
+}
+.VidaaU2MainTitleContentEdit{
+    height: 396px;
+    position: relative;
+    margin-left: 28px;
+    margin-top:200px;
+    width: 1280px;
+    transition: all 0.25s;
+}
+.VidaaU2MainTitleContentChange{
+    height: 396px;
+    position: relative;
+    margin-left: 28px;
+    margin-top:200px;
+    width: 1280px;
+    transition: all 0.25s;
+}
+.VidaaU2MainTitleUl{
+    width: 10000px;
+    position: absolute;
+    left: 208px;
+    /*height: 396px;*/
+}
+.VidaaU2MainTitleContentNormal .VidaaU2MainTitleUl li{
+    list-style: none;
+    float: left;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.VidaaU2MainTitleContentEdit .VidaaU2MainTitleUl li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+.VidaaU2MainTitleContentChange .VidaaU2MainTitleUl li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-top: 100px;
+}
+.VidaaU2MainTitleLiDisable{
+    display: none;
+}
+.VidaaU2MainTitleLiNormal{
+    width: 208px;
+    height: 208px;
+    position: relative;
+}
+.VidaaU2MainTitleLiNormal .VidaaU2MainTitleLiImg{
+    width: 208px;
+    height: 208px;
+}
+
+.VidaaU2MainTitleLiNormal .VidaaU2MainTitleLiLockImg{
+    width: 208px;
+    height: 208px;
+    position: relative;
+    top: -344px;
+}
+
+.VidaaU2MainTitleContentChange .VidaaU2MainTitleLiFocus{
+    width: 208px;
+    height: 208px;
+    position: relative;
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 0 4px #84ecff;
+    z-index: 1;
+    top:-100px;
+}
+.VidaaU2MainTitleLiFocus{
+    width: 208px;
+    height: 208px;
+    position: relative;
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 0 4px #84ecff;
+    z-index: 1;
+}
+.VidaaU2MainTitleLiFocus .VidaaU2MainTitleLiImg{
+    width: 208px;
+    height: 208px;
+    transform:scale(1);
+}
+.VidaaU2MainTitleLiFocus .VidaaU2MainTitleLiLockImg{
+    width: 208px;
+    height: 208px;
+    transform:scale(1);
+    position: relative;
+    top: -344px;
+}
+.VidaaU2MainTitleLiText{
+    position: relative;
+    /*top: -40px;*/
+    top:-130px;
+    font-size: 28px;
+    line-height: 28px;
+    color: rgba(255,255,255,0.87);
+    width: 188px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 60px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right:10px ;
+    text-align: center;
+}
+.VidaaU2MainTitleArrowUp{
+    position: relative;
+    top: -290px;
+    left: 75px;
+    visibility: hidden;
+}
+.VidaaU2MainTitleArrowLeft{
+    top: -200px;
+    position: relative;
+    left: -130px;
+    visibility: hidden;
+
+}
+.VidaaU2MainTitleArrowRight{
+    position: relative;
+    top: -200px;
+    left: 68px;
+    visibility: hidden;
+
+}

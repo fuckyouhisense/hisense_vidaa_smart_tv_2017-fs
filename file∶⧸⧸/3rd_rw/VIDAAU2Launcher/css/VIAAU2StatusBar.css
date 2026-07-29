@@ -1,0 +1,147 @@
+.VIDAAU2StatusPage{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 720px;
+    width: 1280px;
+    overflow: hidden;
+}
+
+.VidaaU2mainTitleStatusBarBg{
+    width: 1280px;
+    height: 96px;
+}
+.VidaaU2MainTitleStatusBarFrame{
+    width: 1248px;
+    height: 96px;
+    position: absolute;
+    top: 17px;
+    left: 16px;
+    right: 16px;
+    color: #FFFFFF;
+}
+.ViddaU2MainTitleStatusBarBg{
+    width: 1280px;
+    position: relative;
+    top:-96px;
+}
+.VidaaU2MainTitleTime{
+    display: inline-block;
+    width: 175px;
+    float: left;
+    margin: 0 16px 0 46px;
+}
+
+#VidaaU2MainTitleTime1{
+    font-size: 56px;
+    display: inline-block;
+}
+#VidaaU2MainTitleTime2{
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    /*left:136px;*/
+
+}
+#VidaaU2MainTitleTime3{
+    font-size: 20px;
+}
+.VidaaU2MainTitleDate{
+    display: inline-block;
+    width: 120px;
+    margin: 8px 16px 0 20px;
+}
+#VidaaU2MainTitleDate1{
+    font-size: 20px;
+
+}
+#VidaaU2MainTitleDate2{
+    font-size: 20px;
+}
+
+
+.VidaaU2MainTitleWeather{
+    display: inline-block;
+    width: 450px;
+    margin: 0 16px 0 16px;
+    position: fixed;
+    left : 550px;
+    top : 17px;
+}
+.VidaaU2MainTitleWeather2{
+    display: inline-block;
+    width: 450px;
+    margin: 0 16px 0 16px;
+    position: fixed;
+    left : 500px;
+    top : 17px;
+}
+
+#VidaaU2MainTitleWeatherIcon2{
+    width: 240px;
+    height: 48px;
+    position: fixed;
+    left : 500px;
+    top : 25px;
+}
+#VidaaU2MainTitletemperature{
+    display: inline;
+    font-size: 56px;
+    left : 20px;
+}
+
+#VidaaU2MainTitleCity{
+    display: table;
+    position: relative;
+    font-size: 20px;
+    left : 10px;
+
+}
+#VidaaU2MainTitleweatherState{
+    display: inline;
+    position: relative;
+    font-size:20px;
+    left : 10px;
+
+}
+.VidaaU2MainTitleBar{
+    /*display: inline-block;*/
+    width: 120px;
+    margin: 0 16px 0 16px;
+}
+#VidaaU2MainTitleWeatherIcon{
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    left : 420px;
+    top :20px;
+}
+
+
+
+
+.VidaaU2MainTitleNetwork{
+    display: inline-block;
+    width: 160px;
+    height: 96px;
+}
+#VidaaU2MainTitleNetworkState{
+    width: 150px;
+    font-size: 32px;
+    position: fixed;
+    right : 116px;
+    top : 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    white-space: nowrap;
+    -webkit-box-orient: vertical;
+
+}
+#VidaaU2MainTitleNetworkIcon{
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    right : 48px;
+    top : 30px;
+}
