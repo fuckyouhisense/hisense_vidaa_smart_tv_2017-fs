@@ -1,0 +1,185 @@
+.VIDAAU2AppPageCommon{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 1280px;
+    height: 720px;
+}
+.VIDAAU2AppPageLeft{
+    position: relative;
+    float: left;
+    margin-top: 256px;
+    width: 415px;
+    height: 208px;
+}
+.VIDAAU2AppPageArrowIcon{
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    margin-top: 56px;
+    width: 96px;
+    height: 96px;
+    background: url("../img/la_p_ic_backarrow.png") no-repeat center;
+}
+.VIDAAU2AppPageLeftMain{
+    position: relative;
+    margin-left: 130px;
+    width: 208px;
+    height: 208px;
+    background-image: url("../img/title/apps.png");
+}
+.VIDAAU2AppPageTitle{
+    width: 208px;
+    margin-top: 140px;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    float:left;
+}
+.VIDAAU2AppPageRight{
+    position: absolute;
+    float: left;
+    left: 415px;
+    width: 865px;
+    height: 720px;
+    background-color: #0c1c2e;
+}
+.VIDAAU2AppPageUlContent{
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 825px;
+    height: 600px;
+}
+.VIDAAU2AppPageText{
+    position: relative;
+    margin-top: -60px;
+    width: 146px;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.VIDAAU2AppPageUl_li_Normal{
+    margin-left: 10px;
+    margin-top: 12px;
+    height: 146px;
+    width:  261px;
+    float: left;
+}
+
+.VIDAAU2AppPageUl_li_focus{
+    margin-left: 10px;
+    margin-top: 12px;
+    height: 146px;
+    width:  261px;
+    color:#f1f1f1;
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    /*transition: all 0.25s;*/
+    box-shadow: 0px 0px 0px 4px #84ecff;
+    float: left;
+}
+.VIDAAU2AppPageUlImg{
+    height: 146px;
+    width:  261px;
+}
+.VIDAAU2AppPageUl_li_Normal .VIDAAU2AppPageText{
+    display: none;
+}
+.VIDAAU2AppPageUl_li_focus .VIDAAU2AppPageText{
+    position: relative;
+    margin-top: -43px;
+    font-size: 22px;
+    line-height: 22px;
+    width: 261px;
+    height: 30px;
+    color: #ffffff;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+.VIDAAU2AppPageTop{
+    margin-top: 20px;
+    margin-right: 30px;
+    height: 40px;
+    float: right;
+}
+.VIDAAU2AppPageInfo{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+.VIDAAU2AppPageBtnNormal {
+    display: inline-block;
+    margin-left: 5px;
+    width: 175px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-indent: 5px;
+    color: #ffffff;
+    background-color: #1b324e;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.VIDAAU2AppPageBtnFocus {
+    display: inline-block;
+    margin-left: 5px;
+    width: 175px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    /*transition: all 0.25s;*/
+    background-color: #1b324e;
+    box-shadow: 0px 0px 0px 4px #84ecff;
+}
+
+.VIDAAU2AppPageBtnDisable {
+    margin-left: 5px;
+    width: 175px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #243348;
+    box-shadow: 0 0 0 4px #ffffff inset;
+    /*opacity: 0.5;*/
+    display: none;
+}
